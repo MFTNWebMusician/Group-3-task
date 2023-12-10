@@ -1,0 +1,16 @@
+.news-card {
+  transition: transform 0.3s;
+}
+
+.news-card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.news-title {
+  transition: 0.2s;
+}
+
+.news-card:hover .news-title {
+  color: red;
+}

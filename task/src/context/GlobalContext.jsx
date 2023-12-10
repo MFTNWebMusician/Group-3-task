@@ -25,10 +25,6 @@ export const ContextProvider = ({ children }) => {
       .catch((err) => console.log(err));
   }, []);
 
-  useEffect(() => {
-    console.log(newsList);
-  }, [newsList]);
-
   return (
     <MyContext.Provider value={[newsList, setNewsList, mainUrl, apiKey]}>
       {children}

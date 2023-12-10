@@ -29,7 +29,7 @@ const Footer = () => {
         <h5 className="text-dark">Lorem</h5>
         <ul className="nav flex-column text-dark">
           <li className="mb-2">
-            <Link to="/Ipsum">Ipsum</Link>
+            <Link to="/home">Home</Link>
           </li>
           <li className="mb-2">
             <Link to="/news">News</Link>

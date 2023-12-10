@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const News = () => {
   const [newsList, setNewsList, mainUrl, apiKey] = useContext(MyContext);
-  const navigate = useNavigate();
+
   return (
     <div className="container">
       {newsList?.map((el) => (

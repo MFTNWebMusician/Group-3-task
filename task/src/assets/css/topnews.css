@@ -1,0 +1,16 @@
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.news-box{
+    height: 40%;
+    background: rgb(0,0,0);
+    background: linear-gradient(230deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 100%);
+    color: white;
+}
+
+.news-box:hover{
+    color: red;
+    transition: 1s;
+}

@@ -4,7 +4,6 @@ import "./../assets/css/news.css";
 import { useNavigate } from "react-router-dom";
 import { FaRegCalendarAlt } from "react-icons/fa";
 
-
 const News = () => {
   const [newsList, setNewsList, mainUrl, apiKey] = useContext(MyContext);
 

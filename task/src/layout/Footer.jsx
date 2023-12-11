@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { MdLocationPin } from "react-icons/md";
+import { MdOutlinePhone } from "react-icons/md";
+import { IoMailOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -7,9 +10,15 @@ const Footer = () => {
       <div className="container row row-cols-1 row-cols-md-2 row-cols-lg-3  py-5">
         <div className="col mb-3">
           <ul className="nav flex-column text-dark">
-            <li className="mb-2">868 Fake Street, New York</li>
-            <li className="mb-2">(+00) 025-1234-5678</li>
-            <li className="mb-2">example.info@gmail.com</li>
+            <li className="mb-2 d-flex align-items-center">
+              <MdLocationPin className="me-2" /> 868 Fake Street, New York
+            </li>
+            <li className="mb-2 d-flex align-items-center">
+              <MdOutlinePhone className="me-2" /> (+00) 025-1234-5678
+            </li>
+            <li className="mb-2 d-flex align-items-center">
+              <IoMailOutline className="me-2" /> example.info@gmail.com
+            </li>
           </ul>
         </div>
         <div className="col mb-3">

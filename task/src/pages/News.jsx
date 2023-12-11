@@ -2,6 +2,8 @@ import React, { useContext } from "react";
 import { MyContext } from "../context/GlobalContext";
 import "./../assets/css/news.css";
 import { useNavigate } from "react-router-dom";
+import { FaRegCalendarAlt } from "react-icons/fa";
+
 
 const News = () => {
   const [newsList, setNewsList, mainUrl, apiKey] = useContext(MyContext);
@@ -25,7 +27,10 @@ const News = () => {
               {el.title}
             </p>
             <p className="fs-6 my-3 my-lg-0 my-xxl-2">{el.description}</p>
-            <p className="fs-6 my-3">{el.date}</p>
+            <div className="d-flex align-items-center">
+              <FaRegCalendarAlt />
+              <p className="fs-6 my-3 ms-2">{el.date}</p>
+            </div>
           </div>
         </div>
       ))}

@@ -287,16 +287,16 @@ const About = () => {
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree"
+                  data-bs-target="#flush-collapseFour"
                   aria-expanded="false"
-                  aria-controls="flush-collapseThree"
+                  aria-controls="flush-collapseFour"
                 >
                   Are there any subscription fees or charges for accessing the
                   news?
                 </button>
               </h2>
               <div
-                id="flush-collapseThree"
+                id="flush-collapseFour"
                 class="accordion-collapse collapse"
                 data-bs-parent="#accordionFlushExample"
               >
@@ -318,15 +318,15 @@ const About = () => {
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThree"
+                  data-bs-target="#flush-collapseFive"
                   aria-expanded="false"
-                  aria-controls="flush-collapseThree"
+                  aria-controls="flush-collapseFive"
                 >
                   Is there a rating or feedback system for news articles?{" "}
                 </button>
               </h2>
               <div
-                id="flush-collapseThree"
+                id="flush-collapseFive"
                 class="accordion-collapse collapse"
                 data-bs-parent="#accordionFlushExample"
               >
@@ -345,7 +345,7 @@ const About = () => {
         </div>
 
         {/* faq image */}
-        <div className="col-sm">
+        <div className="col-sm py-5">
           <img src={"https://assets.website-files.com/643450fc0531386613b2149b/646744ac2d6c9e790cd1388d_faq-img.jpg"} alt="pic2" className="img-fluid" />
         </div>
       </div>
